@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ffd600;
+}
+
+.namatoko {
+  text-align: center;
+  font-size: 25px;
+  color: black;
+  padding: 20px;
+}
+
+.barang {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tulisanbarang {
+  text-align: center;
+  font-size: 10px;
+  margin: 5px;
+}
+.gambar-barang {
+  border: 5px;
+  border-radius: 10px;
+  position: relative;
+  height: 200px;
+  width: 200px;
+  padding-bottom: 25px;
+}
+
+.container {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 3px 10px black;
+  margin: 10px 150px 10px 150px;
+}
+
+.title {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: black;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+}
+
+.form-container {
+  padding: 20px;
+}
+
+.form-input {
+  margin: 20px;
+}
+
+.form-group {
+  display: flex;
+  color: black;
+  justify-content: center;
+}
+
+.label {
+  display: block;
+  margin: 10px;
+}
+
+#total-price {
+  background-color: #ffd600;
+}
+
+.input {
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 25px;
+  width: 255px;
+  padding: 5px 5px;
+}
+
+.button-control {
+  padding: 10px 10px;
+  text-align: center;
+}
+
+button {
+  background-color: none;
+  width: 80px;
+  height: 35px;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  cursor: pointer;
+  color: black;
+  border: 1px solid black;
+}
+
+button[type="submit"]:hover {
+  background-color: black;
+  color: white;
+}
+
+button[type="reset"] {
+  cursor: pointer;
+  color: #ffd600;
+  border: 1px solid #ffd600;
+}
+
+button[type="reset"]:hover {
+  background-color: #ffd600;
+  color: white;
+}

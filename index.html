@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Cashier Javascript</title>
+  </head>
+  <body>
+    <div class="namatoko">
+      <h3>TOKO BETA SONDE</h3>
+    </div>
+    <div class="barang">
+      <div>
+        <h3 class="tulisanbarang">#1</h3>
+        <h3 class="tulisanbarang">TOPI</h3>
+        <h3 class="tulisanbarang">Rp. 95.000,-</h3>
+        <img class="gambar-barang" src="topi.jpg" alt="topi" />
+      </div>
+      <div>
+        <h3 class="tulisanbarang">#2</h3>
+        <h3 class="tulisanbarang">BAJU</h3>
+        <h3 class="tulisanbarang">RP. 150.000,-</h3>
+        <img class="gambar-barang" src="baju.jpg" alt="baju" />
+      </div>
+      <div>
+        <h3 class="tulisanbarang">#3</h3>
+        <h3 class="tulisanbarang">CELANA</h3>
+        <h3 class="tulisanbarang">Rp. 250.000,-</h3>
+        <img class="gambar-barang" src="celana.jpg" alt="celana" />
+      </div>
+      <div>
+        <h3 class="tulisanbarang">#4</h3>
+        <h3 class="tulisanbarang">SEPATU</h3>
+        <h3 class="tulisanbarang">Rp. 200.000,-</h3>
+        <img class="gambar-barang" src="sepatu.jpg" alt="sepatu" />
+      </div>
+    </div>
+    <div class="container">
+      <div class="title">PENJUALAN BARANG</div>
+      <div class="form-container">
+        <form class="form" action="#">
+          <div class="form-group">
+            <div>
+              <div class="form-input">
+                <label for="code" class="label">Kode Barang</label>
+                <input type="text" class="input" id="code" />
+              </div>
+              <div class="form-input">
+                <label for="price" class="label">Harga</label>
+                <input type="number" class="input" id="price" placeholder="0" />
+              </div>
+              <div class="form-input">
+                <label for="subtotal" class="label">Sub Total</label>
+                <input type="text" class="input" id="subtotal" placeholder="Rp 0,-" disabled />
+              </div>
+              <div class="form-input">
+                <label for="total-discount" class="label">Nilai Diskon</label>
+                <input type="text" class="input" id="total-discount" placeholder="Rp 0,-" disabled />
+              </div>
+            </div>
+            <div>
+              <div class="form-input">
+                <label for="name" class="label">Nama Barang</label>
+                <input type="text" class="input" id="name" />
+              </div>
+              <div class="form-input">
+                <label for="total" class="label">Jumlah Barang</label>
+                <input type="number" class="input" id="total" placeholder="0" />
+              </div>
+              <div class="form-input">
+                <label for="discount" class="label">Diskon</label>
+                <input type="text" class="input" id="discount" placeholder="Rp 0,-" disabled />
+              </div>
+              <div class="form-input">
+                <label for="total-price" class="label">Total Bayar</label>
+                <input type="text" class="input" id="total-price" placeholder="Rp 0,-" disabled />
+              </div>
+            </div>
+          </div>
+          <div class="button-control">
+            <button type="submit" id="pay" class="pay">Bayar</button>
+            <button type="reset" id="cancel" class="cancel">Cancel</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
